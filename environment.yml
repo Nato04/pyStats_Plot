@@ -12,16 +12,10 @@ dependencies:
   - r-plotly
   - r-stringr
   - python=3.11
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
   - pip
   - pip:
     - plotly 
     - scikit-learn
+    - pandas
+    - matplotlib
+    - numpy
