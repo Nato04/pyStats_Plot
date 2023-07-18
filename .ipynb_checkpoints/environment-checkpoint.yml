@@ -1,25 +1,16 @@
-name: example-environment
+name: pyStats-environment
 channels:
   - conda-forge
   - bioconda
   - defaults
 dependencies:
-  - r-base=4.0
-  - r-dplyr
-  - r-ggplot2
-  - r-reshape2
-  - r-tidyverse
-  - r-plotly
-  - r-stringr
-<<<<<<< HEAD
   - python=3.9
-=======
-  - python=3.11
->>>>>>> e3feb1074d56f5fed37a3eab179e60537e0ddee8
   - pip
   - pip:
-    - plotly 
+    - plotly
     - scikit-learn
     - pandas
     - matplotlib
     - numpy
+    - scipy
+    - statsmodels
